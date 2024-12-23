@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Main container */
+  .main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Product Cards */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .product-card .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .product-card .btn:hover {
+    background-color: #0056b3;
+  }
+  

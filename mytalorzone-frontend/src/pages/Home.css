@@ -1,0 +1,17 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
